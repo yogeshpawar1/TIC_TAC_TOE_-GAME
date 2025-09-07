@@ -19,3 +19,6 @@ Great project for learning the basics of C++ programming
 🛠️ Built With
 
 Language: C++
+
+SCREEN SHOT 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2c999ff-bd1f-4339-b6f4-356b6e71aca7" />
