@@ -47,25 +47,7 @@ void set_variable(char arr[3][3],int valueset_at,char which_value){             
 
 
 
-// char win_check(char arr[3][3]){
-//     char t;
-//     if(arr[0][0]== '0'&& arr[0][1]=='0'&& arr[0][2]=='0') t='W';return t; 
-//     if(arr[1][0]== '0'&& arr[1][1]=='0'&& arr[1][2]=='0') t='W';return t; 
-//     if(arr[2][0]== '0'&& arr[2][1]=='0'&& arr[2][2]=='0') t='W';return t; 
-//     if(arr[0][0]== '0'&& arr[1][0]=='0'&& arr[2][0]=='0') t='W';return t; 
-//     if(arr[0][1]== '0'&& arr[1][1]=='0'&& arr[2][1]=='0') t='W';return t; 
-//     if(arr[0][2]== '0'&& arr[1][2]=='0'&& arr[2][2]=='0') t='W';return t; 
 
-//      if(arr[0][0]== 'X'&& arr[0][1]=='X'&& arr[0][2]=='X') t='L';return t; 
-//     if(arr[1][0]== 'X'&& arr[1][1]=='X'&& arr[1][2]=='X') t='L';return t; 
-//     if(arr[2][0]== 'X'&& arr[2][1]=='X'&& arr[2][2]=='X') t='L';return t; 
-//     if(arr[0][0]== 'X'&& arr[1][0]=='X'&& arr[2][0]=='X') t='L';return t; 
-//     if(arr[0][1]== 'X'&& arr[1][1]=='X'&& arr[2][1]=='X') t='L';return t; 
-//     if(arr[0][2]== 'X'&& arr[1][2]=='X'&& arr[2][2]=='X') t='L';return t; 
-   
-  
-
-// }
 
 char win_check(char arr[3][3]) {
     const char players[] = {'0', 'X'};  // '0' → W, 'X' → L
@@ -136,16 +118,17 @@ int main(){
 
     }
        win=win_check(arr);
-       
+        draw(arr);
     if(win=='W') cout<<"won the match: "<<endl;
     else if(win=='L') cout<<"lose the match : "<<endl;
          else cout<<"draw the match : "<<endl;
 
-    draw(arr);
+   
 
 
 
 
 
     return 0;
+
 }
