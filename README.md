@@ -34,3 +34,8 @@ If all 9 cells are filled and no one has won, the game ends in a draw.
 
 SCREEN_SHOT 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c2c999ff-bd1f-4339-b6f4-356b6e71aca7" />
+#tic tac toe game
+#tic tac toe with c++
+#tic tac toe play with friend
+#tic tac toe play with computer
+# tic tac toe games
